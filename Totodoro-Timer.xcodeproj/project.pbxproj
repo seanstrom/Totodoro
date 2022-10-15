@@ -10,7 +10,7 @@
 		2B91D6D128FABE3500D6FFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91D6D028FABE3500D6FFC0 /* AppDelegate.swift */; };
 		2B91D6D328FABE3500D6FFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91D6D228FABE3500D6FFC0 /* ViewController.swift */; };
 		2B91D6D528FABE3700D6FFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91D6D428FABE3700D6FFC0 /* Assets.xcassets */; };
-		2B91D6D828FABE3700D6FFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B91D6D628FABE3700D6FFC0 /* Main.storyboard */; };
+		2B91D6E028FABE8C00D6FFC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91D6DF28FABE8C00D6FFC0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +18,9 @@
 		2B91D6D028FABE3500D6FFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B91D6D228FABE3500D6FFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B91D6D428FABE3700D6FFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B91D6D728FABE3700D6FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B91D6D928FABE3700D6FFC0 /* Totodoro_Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Totodoro_Timer.entitlements; sourceTree = "<group>"; };
+		2B91D6DF28FABE8C00D6FFC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2B91D6E128FAD52F00D6FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +53,12 @@
 		2B91D6CF28FABE3500D6FFC0 /* Totodoro-Timer */ = {
 			isa = PBXGroup;
 			children = (
+				2B91D6E128FAD52F00D6FFC0 /* Info.plist */,
 				2B91D6D028FABE3500D6FFC0 /* AppDelegate.swift */,
 				2B91D6D228FABE3500D6FFC0 /* ViewController.swift */,
 				2B91D6D428FABE3700D6FFC0 /* Assets.xcassets */,
-				2B91D6D628FABE3700D6FFC0 /* Main.storyboard */,
 				2B91D6D928FABE3700D6FFC0 /* Totodoro_Timer.entitlements */,
+				2B91D6DF28FABE8C00D6FFC0 /* main.swift */,
 			);
 			path = "Totodoro-Timer";
 			sourceTree = "<group>";
@@ -120,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B91D6D528FABE3700D6FFC0 /* Assets.xcassets in Resources */,
-				2B91D6D828FABE3700D6FFC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,21 +134,11 @@
 			files = (
 				2B91D6D328FABE3500D6FFC0 /* ViewController.swift in Sources */,
 				2B91D6D128FABE3500D6FFC0 /* AppDelegate.swift in Sources */,
+				2B91D6E028FABE8C00D6FFC0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2B91D6D628FABE3700D6FFC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B91D6D728FABE3700D6FFC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B91D6DA28FABE3700D6FFC0 /* Debug */ = {
@@ -277,8 +268,8 @@
 				DEVELOPMENT_TEAM = 83ET3Y4AAH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Totodoro-Timer/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,8 +295,8 @@
 				DEVELOPMENT_TEAM = 83ET3Y4AAH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Totodoro-Timer/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
