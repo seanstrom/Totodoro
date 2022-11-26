@@ -1,3 +1,3 @@
 # Totodoro
 
-![Gif of Totodoro]("assets/images/totodoro.gif")
+![Gif of Totodoro](/assets/images/totodoro.gif)
