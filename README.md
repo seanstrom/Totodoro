@@ -1,3 +1,3 @@
 # Totodoro
 
-![Gif of Totodoro]("/assets/images/totodoro.gif")
+![Gif of Totodoro]("https://raw.githubusercontent.com/seanstrom/Totodoro/trunk/assets/images/totodoro.gif")
